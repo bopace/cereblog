@@ -109,11 +109,10 @@ body {
     display: inline-block;
     font-size: 30px;
     color: white;
-    margin-bottom: 30px;
 }
 
 .nav-menu {
-    margin: 20px;
+    margin: 15px;
     float: right;
 }
 
