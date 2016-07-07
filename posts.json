@@ -3,12 +3,24 @@
         "id": 1467931825063,
         "title": "Everything you need to know about spuds",
         "author": "Bo Pace",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem nunc, feugiat et est ut, eleifend porttitor nibh. Nunc gravida ligula a tincidunt volutpat. Vestibulum vulputate faucibus nisi, eu venenatis nibh sollicitudin sit amet. Praesent at accumsan ligula. Quisque dui tortor, porttitor eu velit non, ullamcorper ultrices lorem. Sed efficitur fermentum est, eu molestie purus. Curabitur at pretium justo, at semper felis. Suspendisse sed sapien nibh. Aliquam massa risus, maximus porttitor ullamcorper vel, imperdiet vel massa. Morbi hendrerit vitae mauris eget porta. Integer suscipit nibh sed convallis fringilla.  Quisque nec commodo magna. Pellentesque iaculis facilisis nisl. Mauris viverra, quam quis ullamcorper euismod, tellus risus efficitur quam, vitae viverra mi ligula vel metus. Praesent euismod porttitor euismod. Integer eleifend, mi vel tincidunt interdum, nisl risus tristique augue, elementum porttitor dolor diam id lectus. Praesent aliquet nunc non lectus consectetur venenatis. Praesent in nunc in ante gravida tincidunt. Phasellus commodo urna arcu, sit amet auctor lacus pharetra non. Donec ac ultrices justo. Suspendisse dapibus tincidunt bibendum. Suspendisse finibus tincidunt leo non porta. Nam elementum orci feugiat, laoreet lectus ut, sodales ante. Nam accumsan eros nec urna finibus, in consectetur lacus luctus. In justo turpis, congue a mattis in, rhoncus ac eros. Aliquam in nunc non augue tempus laoreet."
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem nunc, feugiat et est ut, eleifend porttitor nibh. Nunc gravida ligula a tincidunt volutpat. Vestibulum vulputate faucibus nisi, eu venenatis nibh sollicitudin sit amet. Praesent at accumsan ligula. Quisque dui tortor, porttitor eu velit non, ullamcorper ultrices lorem. Sed efficitur fermentum est, eu molestie purus. Curabitur at pretium justo, at semper felis. Suspendisse sed sapien nibh. Aliquam massa risus, maximus porttitor ullamcorper vel, imperdiet vel massa. Morbi hendrerit vitae mauris eget porta. Integer suscipit nibh sed convallis fringilla.  Quisque nec commodo magna. Pellentesque iaculis facilisis nisl.\n\nMauris viverra, quam quis ullamcorper euismod, tellus risus efficitur quam, vitae viverra mi ligula vel metus. Praesent euismod porttitor euismod. Integer eleifend, mi vel tincidunt interdum, nisl risus tristique augue, elementum porttitor dolor diam id lectus. Praesent aliquet nunc non lectus consectetur venenatis. Praesent in nunc in ante gravida tincidunt. Phasellus commodo urna arcu, sit amet auctor lacus pharetra non. Donec ac ultrices justo. Suspendisse dapibus tincidunt bibendum. Suspendisse finibus tincidunt leo non porta. Nam elementum orci feugiat, laoreet lectus ut, sodales ante. Nam accumsan eros nec urna finibus, in consectetur lacus luctus. In justo turpis, congue a mattis in, rhoncus ac eros. Aliquam in nunc non augue tempus laoreet."
     },
     {
         "id": 1467931895822,
-        "title": "How to build a blog",
-        "author": "Jeffrey Gump",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lorem nunc, feugiat et est ut, eleifend porttitor nibh. Nunc gravida ligula a tincidunt volutpat. Vestibulum vulputate faucibus nisi, eu venenatis nibh sollicitudin sit amet. Praesent at accumsan ligula. Quisque dui tortor, porttitor eu velit non, ullamcorper ultrices lorem. Sed efficitur fermentum est, eu molestie purus. Curabitur at pretium justo, at semper felis. Suspendisse sed sapien nibh. Aliquam massa risus, maximus porttitor ullamcorper vel, imperdiet vel massa. Morbi hendrerit vitae mauris eget porta. Integer suscipit nibh sed convallis fringilla.  Quisque nec commodo magna. Pellentesque iaculis facilisis nisl. Mauris viverra, quam quis ullamcorper euismod, tellus risus efficitur quam, vitae viverra mi ligula vel metus. Praesent euismod porttitor euismod. Integer eleifend, mi vel tincidunt interdum, nisl risus tristique augue, elementum porttitor dolor diam id lectus. Praesent aliquet nunc non lectus consectetur venenatis. Praesent in nunc in ante gravida tincidunt. Phasellus commodo urna arcu, sit amet auctor lacus pharetra non. Donec ac ultrices justo. Suspendisse dapibus tincidunt bibendum. Suspendisse finibus tincidunt leo non porta. Nam elementum orci feugiat, laoreet lectus ut, sodales ante. Nam accumsan eros nec urna finibus, in consectetur lacus luctus. In justo turpis, congue a mattis in, rhoncus ac eros. Aliquam in nunc non augue tempus laoreet."
+        "title": "Markdown is supported!",
+        "author": "Bo Pace, Jr.",
+        "text": "# You can do headers\n## this way\n\nOr you can do them\n======\n\nthis way\n------\n\nMarkdown allows you to *write this in italics* using *italics* or _underscores_\n\nIf you want to **bold your text**, you can **do** that __too__\n\n1. Here\n2. Is\n3. A\n4. List\n\nYou can check out [my website here](http://bopace.com/)\n\nAnd take a look at my [GitHub](https://github.com/bopace/)"
+    },
+    {
+        "id": 1467933816140,
+        "title": "Hello??",
+        "author": "Bo PAce",
+        "text": "What's going on here, exactly? I'm not sure what to do.\n\n**what** is this even?"
+    },
+    {
+        "id": 1467933836266,
+        "title": "asdf",
+        "author": "asdf",
+        "text": "*what is up*\n\n**......WIOJWOIFJSd**"
     }
 ]

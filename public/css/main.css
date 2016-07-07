@@ -1,4 +1,6 @@
 html, body {
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
 
@@ -12,12 +14,18 @@ body {
     margin: 0 auto -155px;
 }
 
+/* HEADER CSS */
+
 .header {
     background-color: inherit;
     color: white;
     margin: 20px auto;
     font-size: 24px;
     width: 1000px;
+}
+
+.header li {
+    list-style: none;
 }
 
 .logo {
@@ -42,10 +50,66 @@ body {
     margin-left: 20px;
 }
 
+
+
+/* FORM CSS */
+
+.formTitle, .formName {
+    border: 1px solid #444;
+    display: block;
+    width: 300px;
+    font-family: "Oxygen", sans-serif;
+    padding: 5px;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.formContent {
+    border: 1px solid #444;
+    resize: none;
+    display: block;
+    width: 300px;
+    height: 100px;
+    font-family: "Oxygen", sans-serif;
+    padding: 5px;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.formButton {
+    border: none;
+    background-color: #e7d497;
+    color: #444;
+    font-family: "Oxygen", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 5px 0;
+    transition: all .1s ease-in-out;
+}
+
+.formButton:hover {
+    cursor: pointer;
+    background-color: #444;
+    color: #e7d497;
+}
+
+.formTitle:focus,
+.formName:focus,
+.formContent:focus,
+.formButton:focus {
+    outline: none;
+}
+
+
+
+/* BLOG CONTENT */
+
 .blog-title {
     display: inline-block;
     font-size: 30px;
     color: white;
+    margin-bottom: 30px;
 }
 
 .nav-menu {
@@ -59,7 +123,7 @@ body {
 
 .content-wrapper {
     background-color: #a29c8e;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 
 #content {
@@ -78,13 +142,14 @@ body {
 
 .blogPost {
     background-color: white;
-    margin: 15px 0;
+    margin: 30px 0;
     padding: 20px;
 }
 
 .postTitle {
     font-size: 30px;
     font-weight: bold;
+    margin: 0;
 }
 
 .postAuthor {

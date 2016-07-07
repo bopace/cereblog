@@ -88,6 +88,7 @@ var Post = React.createClass({
                 <div className="postAuthor">
                     by {this.props.author}
                 </div>
+                <hr />
                 <span className="postContent" dangerouslySetInnerHTML={this.getMarkup()} />
             </div>
         );
@@ -122,24 +123,26 @@ var PostForm = React.createClass({
         return (
             <form className="postForm" onSubmit={this.handleSubmit}>
                 <input
+                    className="formTitle"
                     type="text"
-                    placeholder="Post title"
+                    placeholder="post title"
                     value={this.state.title}
                     onChange={this.handleTitleChange}
                 />
                 <input
+                    className="formName"
                     type="text"
-                    placeholder="Your name"
+                    placeholder="your name"
                     value={this.state.author}
                     onChange={this.handleAuthorChange}
                 />
-                <input
-                    type="text"
-                    placeholder="Write post..."
+                <textarea
+                    className="formContent"
+                    placeholder="write post..."
                     value={this.state.text}
                     onChange={this.handleTextChange}
-                />
-                <input type="submit" value="Post" />
+                ></textarea>
+                <input className="formButton" type="submit" value="post" />
             </form>
         );
     }
