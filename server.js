@@ -1,8 +1,13 @@
 var fs = require('fs');
 var path = require('path');
 var express = require('express');
+var passport = require('passport');
+var GitHubStrategy = require('passport-github2').Strategy;
 var bodyParser = require('body-parser');
 var app = express();
+
+var GITHUB_CLIENT_ID = '--insert-github-client-id-here--';
+var GITHUB_CLIENT_SECRET = '--insert-github-client-secret-here--';
 
 // TODO: Add MongoDB for storing posts and comments
 var POSTS_FILE = path.join(__dirname, 'posts.json');

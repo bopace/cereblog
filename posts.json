@@ -10,17 +10,5 @@
         "title": "Markdown is supported!",
         "author": "Bo Pace, Jr.",
         "text": "# You can do headers\n## this way\n\nOr you can do them\n======\n\nthis way\n------\n\nMarkdown allows you to *write this in italics* using *italics* or _underscores_\n\nIf you want to **bold your text**, you can **do** that __too__\n\n1. Here\n2. Is\n3. A\n4. List\n\nYou can check out [my website here](http://bopace.com/)\n\nAnd take a look at my [GitHub](https://github.com/bopace/)"
-    },
-    {
-        "id": 1467933816140,
-        "title": "Hello??",
-        "author": "Bo PAce",
-        "text": "What's going on here, exactly? I'm not sure what to do.\n\n**what** is this even?"
-    },
-    {
-        "id": 1467933836266,
-        "title": "asdf",
-        "author": "asdf",
-        "text": "*what is up*\n\n**......WIOJWOIFJSd**"
     }
 ]
