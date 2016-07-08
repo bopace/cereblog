@@ -1,15 +1,17 @@
 var fs = require('fs');
 var path = require('path');
 var express = require('express');
+var mongoose = require('mongoose');
 var passport = require('passport');
-var GitHubStrategy = require('passport-github2').Strategy;
 var bodyParser = require('body-parser');
+var session = require('express-session');
+
 var app = express();
+require('dotenv').load();
+require('./app/config/passport')(passport);
 
-var GITHUB_CLIENT_ID = '--insert-github-client-id-here--';
-var GITHUB_CLIENT_SECRET = '--insert-github-client-secret-here--';
+mongoose.connect(process.env.MONGO_URI);
 
-// TODO: Add MongoDB for storing posts and comments
 var POSTS_FILE = path.join(__dirname, 'posts.json');
 
 app.set('port', (process.env.PORT || 3000));
@@ -20,11 +22,27 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
-    
     // Disable caching so the blog will always be up-to-date
     res.setHeader('Cache-Control', 'no-cache');
     next();
 });
+
+app.use(session({
+    secret: 'secretCereblog',
+    resave: false,
+    saveUninitialized: true
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.get('/auth/github', passport.authenticate('github'));
+
+app.get('/auth/github/callback',
+    passport.authenticate('github', { failureRedirect: '/error'}),
+    function(req, res) {
+        res.redirect('/');
+    });
 
 // THIS WILL BE REPLACD BY MONGODB AT SOME POINT
 app.get('/api/posts', function(req, res) {
