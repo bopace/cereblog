@@ -120,6 +120,11 @@ body {
     display: inline-block;
 }
 
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
 .content-wrapper {
     background-color: #a29c8e;
     padding-bottom: 50px;
@@ -204,7 +209,7 @@ body {
     .header {
         width: 90%;
     }
-    
+
     #content {
         width: 90%;
     }
